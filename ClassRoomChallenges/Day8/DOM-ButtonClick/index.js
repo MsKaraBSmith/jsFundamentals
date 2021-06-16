@@ -24,13 +24,13 @@ function team1Sub(){
 }
 
 function team2Add(){
-    let points = team1Points.innerText;
-    points = Number(points) + 1; //telling javascript to now treat this string as a number
+    let points = team2Points.innerText;
+    points = Number(points) + 1;
     team1Points.innerText = points;
 }
 
 function team2Sub(){
-    let points = team1Points.innerText;
+    let points = team2Points.innerText;
     points = Number(points) - 1;
     team1Points.innerText = points;
 }

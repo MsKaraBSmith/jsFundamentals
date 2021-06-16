@@ -1,0 +1,12 @@
+.background {
+    background-image: url("https://www.kastapp.co/images/gradient-violet-bg.jpg");
+    height: 925px;
+    width: 100%;
+    margin: 0px;
+    display: block;
+    object-fit: cover;
+    min-height: 100%;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+}
